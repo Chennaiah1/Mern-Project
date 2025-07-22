@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 5000;
 
 // ✅ CORS: Secure for Vercel
 app.use(cors({
-  origin: "https://your-frontend.vercel.app", // Replace with actual Vercel domain
+  origin: "https://mern-project-ashy.vercel.app/", // Replace with actual Vercel domain
   credentials: true,
 }));
 
